@@ -5,6 +5,7 @@ description: null
 date: 2025-07-15
 authors:
   - tieubao
+pinned: true
 tags:
   - make
   - breakdown
@@ -30,6 +31,29 @@ Each article in this series is a deep dive into the technical side of a real-wor
 
 If you want to understand how things really work, you are in the right place.
 
+## Get involved
+
+If you have a specific app or technology you would like us to break down, let us know! Otherwise, following are some open source projects we are interested in exploring:
+
+- [anus](https://github.com/nikmcfly/ANUS): agent framework
+- [openmanus](https://github.com/mannaandpoem/OpenManus): agent framework
+- [screenpipe](https://github.com/mediar-ai/screenpipe): record desktop history
+- [onlook](https://github.com/onlook-dev/onlook): cursor for designer
+- [autogen](https://microsoft.github.io/autogen/stable//index.html): multi-agent app framework
+- [mathom](https://github.com/stephenlacy/mathom): monitor MCP locally
+- [midday](https://github.com/midday-ai/midday): finance tracking
+- [dyad](https://github.com/dyad-sh/dyad): AI app builder
+- [nautilus trader](https://nautilustrader.io/): trading platform
+- [sim](https://github.com/simstudioai/sim): AI agent workflow
+- [wg-easy](https://github.com/wg-easy/wg-easy): wireguard vpn
+- [frigate](https://github.com/blakeblackshear/frigate): object detection for IP camera
+- [activepieces](https://github.com/activepieces/activepieces): AI agent + workflow automation
+- [deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open): AI-powered Wiki generator
+- [cap](https://github.com/CapSoftware/Cap): shareable screen recording
+- [prefect](https://github.com/PrefectHQ/prefect): workflow orchestration for building data pipelines
+- [tianji](https://github.com/msgbyte/tianji): all-in-one analytics
+- [terminator](https://github.com/mediar-ai/terminator/tree/main): AI-powered desktop automation
+
 > Next: Explore the latest deep dives from this series in the list below.
 
 ## Latest from this series
@@ -40,5 +64,5 @@ FROM vault
 WHERE file_path ILIKE '%breakdown%'
   OR ['breakdown'] && tags
 ORDER BY date DESC
-LIMIT 5;
+LIMIT 10;
 ```
